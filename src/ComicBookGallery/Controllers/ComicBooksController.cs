@@ -19,7 +19,7 @@ namespace ComicBookGallery.Controllers
                 Artists = new Artist[]
                 {
                     new Artist() { Name = "Dan Slott", Role = "Script" },
-                    new Artist() { Name = "HUmberto Ramos", Role = "Pencils" },
+                    new Artist() { Name = "Humberto Ramos", Role = "Pencils" },
                     new Artist() { Name = "Victor Olazaba", Role = "Inks" },
                     new Artist() { Name = "Edgar Delgado", Role = "Colors" },
                     new Artist() { Name = "Chris Eliopolous", Role = "Letters" }
