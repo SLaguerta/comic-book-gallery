@@ -62,7 +62,12 @@ namespace ComicBookGallery.Data
 
             foreach (var comicBook in _comicBooks)
             {
+                if (comicBook.Id == id)
+                {
+                    comicBookToReturn = comicBook;
 
+                    break;
+                }
             }
             return comicBookToReturn;
         }
